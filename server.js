@@ -67,14 +67,9 @@ MongoClient.connect("mongodb+srv://diego:123@cluster0.ugvbjo7.mongodb.net/star-w
           }
         )
         .then(result => {
-          
           res.json('Success')
-          
           })
         .catch(error => console.error(error))
     })
-    
-
-
   })
   .catch(error => console.error(error))
